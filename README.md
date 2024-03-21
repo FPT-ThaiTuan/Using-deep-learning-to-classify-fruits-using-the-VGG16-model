@@ -13,6 +13,9 @@ Normalize the data to [0,1] and the label converts to One-hot encoding
 
 ## B. Build model VGG16
 Before you proceed to build the model, you should learn about the VGG16 structure.
+
+![VGG-16-model-structure](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/01308665-44ff-4195-87a9-02d4f68d7b6d)
+
 <p align="center">
   <a href="https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/591f9348-984f-4cf4-9142-2dec24801559">VGG-16-model-structure</a>
 </p>
