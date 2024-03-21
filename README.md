@@ -23,12 +23,19 @@ Dense Layer: This is a Fully Connected layer, in which each unit connects to all
 
 ## C. Visualize model parameters
 The loss of training and validation.
+
 ![屏幕截图 2024-03-21 234057](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/948f7fae-0de6-4ae5-a68d-7ef8c6679d7d)
+
 The accuracy of training and validation.
+
 ![屏幕截图 2024-03-21 234109](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/1b87afbf-da75-4eeb-b8e3-cc387116431d)
+
 Confusion matrix with data testing.
+
 ![屏幕截图 2024-03-21 234148](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/683b8f9c-0e7e-41c1-85f7-b43ad41bfc49)
+
 Classification report.
+
 ![屏幕截图 2024-03-21 235413](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/8526fe73-1783-4d11-9ba4-11dfd0a1aad5)
 
 ## D. Save the model and reuse it
