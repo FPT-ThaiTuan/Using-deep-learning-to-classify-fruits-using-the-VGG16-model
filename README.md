@@ -1,6 +1,7 @@
 # Using deep learning to classify fruits using the VGG16 model
 
 ## A. Data preprocessing
+Collect data from kaggle [Dataset](https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class)
 Create training, validation, and test data sets
 Reshape the size
 Mix photos
@@ -9,7 +10,9 @@ Normalize the data to [0,1] and the label converts to One-hot encoding
 ## B. Build model VGG16
 Before you proceed to build the model, you should learn about the VGG16 structure.
 ![VGG-16-model-structure](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/591f9348-984f-4cf4-9142-2dec24801559)
-[VGG16 structure]([https://thigiacmaytinh.com](https://www.researchgate.net/figure/VGG-16-model-Illustration-of-using-the-VGG-16-for-transfer-learning-The-convolution_fig2_334992074)https://www.researchgate.net/figure/VGG-16-model-Illustration-of-using-the-VGG-16-for-transfer-learning-The-convolution_fig2_334992074)
+
+[VGG16 structure](https://www.researchgate.net/figure/VGG-16-model-Illustration-of-using-the-VGG-16-for-transfer-learning-The-convolution_fig2_334992074)https://www.researchgate.net/figure/VGG-16-model-Illustration-of-using-the-VGG-16-for-transfer-learning-The-convolution_fig2_334992074)
+
 The model I built includes:
 4 layers Conv2D Layer: This is a convolutional layer, where each unit performs a convolution on the input to extract features. In this code, we use 2 Conv2D layers with 32 and 64 filters of size (3,3) and ReLU activation function.
 
@@ -44,6 +47,11 @@ Classification report.
 ![屏幕截图 2024-03-21 235631](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/b908d21e-3dec-49fd-9d0b-13844c4c10a6)
 ![屏幕截图 2024-03-21 235607](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/f0a6ccfc-9576-4a2a-9168-10e8f3511df8)
 
+### **Hope this article can help you.**
+### **If you have any questions please contact me for help!**
+### **Gmail: tuanddt.ai.work@gmail.com**
+
+### ***Thanks everyone!***
 
 
 
