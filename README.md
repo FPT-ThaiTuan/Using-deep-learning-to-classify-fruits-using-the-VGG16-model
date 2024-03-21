@@ -16,6 +16,7 @@ Before you proceed to build the model, you should learn about the VGG16 structur
 ![VGG-16-model-structure](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/591f9348-984f-4cf4-9142-2dec24801559)
 
 [VGG16 structure](https://www.researchgate.net/figure/VGG-16-model-Illustration-of-using-the-VGG-16-for-transfer-learning-The-convolution_fig2_334992074)
+
 The model I built includes:
 4 layers Conv2D Layer: This is a convolutional layer, where each unit performs a convolution on the input to extract features. In this code, we use 2 Conv2D layers with 32 and 64 filters of size (3,3) and ReLU activation function.
 
