@@ -1,9 +1,11 @@
 # Using deep learning to classify fruits using the VGG16 model
+
 ## A. Data preprocessing
-*Create training, validation, and test data sets
-*Reshape the size
-*Mix photos
-*Normalize the data to [0,1] and the label converts to One-hot encoding
+Create training, validation, and test data sets
+Reshape the size
+Mix photos
+Normalize the data to [0,1] and the label converts to One-hot encoding
+
 ## B. Build model VGG16
 Before you proceed to build the model, you should learn about the VGG16 structure.
 ![VGG-16-model-structure](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/591f9348-984f-4cf4-9142-2dec24801559)
@@ -20,25 +22,23 @@ Flatten Layer: This layer flattens data from a 2D matrix into a 1D vector, to pr
 Dense Layer: This is a Fully Connected layer, in which each unit connects to all units in the previous layer. In this code, we use 2 Dense layers with 512 and 8 units, and the ReLU and softmax activation functions.
 
 ## C. Visualize model parameters
-* The loss of training and validation
+The loss of training and validation
 ![屏幕截图 2024-03-21 234057](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/948f7fae-0de6-4ae5-a68d-7ef8c6679d7d)
-* The accuracy of training and validation
+The accuracy of training and validation
 ![屏幕截图 2024-03-21 234109](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/1b87afbf-da75-4eeb-b8e3-cc387116431d)
-* Confusion matrix with data testing
+Confusion matrix with data testing
 ![屏幕截图 2024-03-21 234148](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/683b8f9c-0e7e-41c1-85f7-b43ad41bfc49)
-* Classification report
-|  | precision | recall | f1-score | support |
-| :—–--- | :———- | :————– | :———- | :————– |
-| banana | 0.75  | 0.75  | 0.75  | 4 |
-| avocado | 1.00 | 0.80 | 0.89 | 5 |
-| 2 | Dòng 12 | Dòng 22 |Dòng 11 | Dòng 21 |  cherry       0.83      1.00      0.91         5
-| 3 | Dòng 13 | Dòng 23 |Dòng 11 | Dòng 21 |  kiwi       1.00      1.00      1.00         5
-| 4 | Dòng 14 | Dòng 24 |Dòng 11 | Dòng 21 | mango       0.75      0.60      0.67         5
-| 3 | Dòng 13 | Dòng 23 |Dòng 11 | Dòng 21 | orange       1.00      1.00      1.00         4
-| 3 | Dòng 13 | Dòng 23 |Dòng 11 | Dòng 21 | pinenapple       0.67      0.80      0.73         5
-| 4 | Dòng 14 | Dòng 24 |Dòng 11 | Dòng 21 | watermelon       1.00      1.00      1.00         5
-| 2 | Dòng 12 | Dòng 22 |Dòng 11 | Dòng 21 |   accuracy                           0.87        38
-| 2 | Dòng 12 | Dòng 22 |Dòng 11 | Dòng 21 | macro avg       0.88      0.87      0.87        38
-| 2 | Dòng 12 | Dòng 22 |Dòng 11 | Dòng 21 |weighted avg       0.88      0.87      0.87        38
-| 3 | Dòng 13 | Dòng 23 |
-| 4 | Dòng 14 | Dòng 24 |
+Classification report
+![屏幕截图 2024-03-21 235413](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/8526fe73-1783-4d11-9ba4-11dfd0a1aad5)
+
+## D. Save the model and reuse it
+
+## E. Result
+<img src="[https://...](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/b908d21e-3dec-49fd-9d0b-13844c4c10a6)https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/b908d21e-3dec-49fd-9d0b-13844c4c10a6" alt="..." width="250" />
+<img src="[https://...](https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/f0a6ccfc-9576-4a2a-9168-10e8f3511df8)https://github.com/FPT-ThaiTuan/Using-deep-learning-to-classify-fruits-using-the-VGG16-model/assets/105273233/f0a6ccfc-9576-4a2a-9168-10e8f3511df8" alt="..." width="250" />
+
+
+
+
+
+
