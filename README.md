@@ -2,9 +2,13 @@
 
 ## A. Data preprocessing
 Collect data from kaggle [Dataset](https://www.kaggle.com/datasets/karimabdulnabi/fruit-classification10-class)
+
 Create training, validation, and test data sets
+
 Reshape the size
+
 Mix photos
+
 Normalize the data to [0,1] and the label converts to One-hot encoding
 
 ## B. Build model VGG16
